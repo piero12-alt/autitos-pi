@@ -2,18 +2,18 @@
 
 class libro {
     public $titulo;
-    public $auto;
-    public $precio;
+    public $AUTO;
+    public $PRECIO;
 
-    public function __construct($titulo,$auto,$precio)
+    public function __construct($titulo,$AUTO,$PRECIO)
     {
       $this->titulo = $titulo; 
-      $this->auto = $auto; 
-      $this->precio = $precio; 
+      $this->AUTO = $AUTO; 
+      $this->PRECIO = $PRECIO; 
     }
     public function mostrarinfo()
     {
-         return "la info es :". $this ->titulo; $this ->auto; $this ->precio; 
+         return "la info es :". $this ->titulo; $this ->AUTO; $this ->PRECIO; 
     }
 
 }
